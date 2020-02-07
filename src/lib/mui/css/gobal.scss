@@ -1,0 +1,17 @@
+.thumbs {
+    /deep/ .my-gallery {
+        //deep深层作用选择器
+        display: flex;
+        //默认换行
+        flex-wrap: wrap;
+        figure {
+            width: 30%;
+            margin: 5px;
+            img {
+                width: 100%;
+                box-shadow: 0 0 8px #999;
+                border-radius: 5px;
+            }
+        }
+    }
+}
